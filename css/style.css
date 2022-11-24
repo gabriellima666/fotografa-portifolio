@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@1&family=Cormorant+Garamond:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  padding-top: 3.5em;
+}
+
+body {
+  background: #121210;
+}
+
+main {
+  margin: 0 auto;
+  width: 100%;
+  color: #BABFAA;
+}
+
+.margem-lateral {
+  margin: 0 10%;
+}
+
+.superior-aredondado {
+  border-radius: 50% 50% 0 0;
+}
+
+.arredondamento {
+  border-radius: 100%;
+}
+
+.clear {
+  clear: both;
+}
+
+.h3pdrao {
+  font-size: 2.1em;
+  font-weight: 500;
+  margin-top: 20px;
+  font-family: 'Arapey', serif;
+}
+
+.ppdrao {
+  font-size: 1em;
+  margin-top: 5px;
+  font-family: Helvetica, sans-serif;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  background: #12121080;
+}
+
+#header ul {
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+#header li {
+  padding: 5px 10px;
+  display: block;
+}
+
+#header a {
+  text-decoration: none;
+  color: #BABFAA;
+  font-size: 1.2em;
+  font-family: Helvetica, sans-serif;
+  line-height: 30px;
+  transition: 0.5s ease-in;
+}
+
+#header a:hover {
+  color: #d6dac9;
+  text-decoration: underline;
+}
+
+/* home
+------------------------------------------------------------------------------------------- */
+
+
+
+#foto-home {
+  float: right;
+  margin-top: 200px;
+  width: 300px;
+  text-align: center;
+}
+
+#foto-home img {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#foto-home p {
+  font-size: 	0.878em;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Helvetica,sans-serif;
+}
+
+#foto-home a {
+  color: #BABFAA;
+  font-size: 0.945em;
+  font-family: Helvetica,sans-serif;
+}
+
+
+#texto-inicial {
+  float: left;
+  margin-top: 120px;
+  width: 300px;
+}
+
+#texto-inicial h1 {
+  font-size: 6em;
+  letter-spacing: 15px;
+  font-weight: 300;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+#texto-inicial p {
+  margin-top: 10px;
+  font-size: 2em;
+  white-space: nowrap;
+  font-family: 'Arapey', serif;
+  font-style: italic;
+}
+
+/* meu trabalho
+------------------------------------------------------------------------------------------- */
+#sobre-mim {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  
+}
+
+#texto-sobre-mim {
+  margin-top: 200px;
+  text-align: center;
+  margin-right: 50px;
+}
+
+#texto-sobre-mim h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 4em;
+  letter-spacing: 15px;
+  margin-bottom: 30px;
+  display: inline;
+  font-weight: 300;
+  white-space: nowrap;
+}
+
+#texto-sobre-mim p {
+  margin-bottom: 20px;
+  display: block;
+  font-size: 1.087em;
+  font-family: Helvetica, sans-serif;
+}
+
+/* Exemplo de trabalho
+------------------------------------------------------------------------------------------- */
+#exemplos-de-trabalho2 {
+  margin: 100px 10% 0 10%;
+}
+
+#exemplos-de-trabalho-img {
+  display: flex;
+  justify-content: space-around;
+}
+
+#exemplos-de-trabalho h2 {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+#exemplo-foto-texto {
+  text-align: center;
+}
+
+#trabalho3 {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10px;
+}
+
+#trabalho3 img {
+  margin-right: 5px;
+}
+
+#exemplos-de-trabalho2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#trabalho2 {
+  text-align: justify;
+}
+
+#trabalho2 h3{
+  margin-bottom: 10px;
+}
+
+#exemplos-de-trabalho3 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-left: -4%;
+}
+
+
+#trabalho-3img h3 {
+  margin-top: 10px;
+}
+
+#trabalho-4img {
+  display: flex;
+  flex-direction: column;
+}
+
+#trabalho-4img img {
+  margin-top: 7px;
+}
+
+#exemplo-desafio {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#exemplo-desafio h3 {
+  margin-top: 10px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  font-size: 2.927em;
+  margin-bottom: 60px;
+}
+
+#exemplo-desafio p {
+  font-size: 1.4219em;
+  margin-bottom: 15px;
+}
+
+#exemplo-desafio a {
+  color: #BABFAA;
+  font-size: 1em;
+  font-family: Helvetica,sans-serif;
+  text-transform: uppercase;
+}
+
+/* Exemplo de trabalho
+------------------------------------------------------------------------------------------- */
+
+#area-depoimento {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#depoimento {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#depoimento h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+.depoimentos h4 {
+  font-family:'Arapey', serif;
+  font-size: 1.4219em;
+  margin-bottom: 10px;
+}
+
+.depoimentos p {
+  font-size: 1.0873em;
+  font-family: Helvetica, sans-serif;
+}
+
+/* Credenciais
+------------------------------------------------------------------------------------------- */
+
+
+.texto-credencial p {
+  text-align: justify;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.texto-credencial h3 {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+#credencial {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 80px;
+}
+
+#textos-credenciais{
+  width: 530px;
+  flex-wrap: 0;
+  height: 400px;
+}
+
+#credencial img {
+  flex-wrap: 2;
+  width: 700px;
+  height: 400px;
+  margin-bottom: 40px;
+}
+
+/* contato
+------------------------------------------------------------------------------------------------------------------------------- */
+
+#contato-img {
+  display: flex;
+  justify-content: start;
+}
+
+#contato {
+  display: flex;
+  justify-content: space-between;
+}
+
+#fale-comigo {
+  margin: 12% 10% 0 0;
+  text-align: center;
+}
+
+#fale-comigo h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+#fale-comigo p {
+  margin-top: 20px;
+  font-size: 1.3801em;
+  font-family:'Arapey', serif;
+  margin-bottom: 10px;
+}
+
+#fale-comigo a{
+  color: #BABFAA;
+  font-size: 1em;
+  font-family: Helvetica,sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#fale-comigo a:hover {
+  color: #BABFAA;
+  text-decoration: underline;
+}
